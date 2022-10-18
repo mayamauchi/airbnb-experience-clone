@@ -1,19 +1,17 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Landing from "./components/Landing";
-import Card from "./components/Cards";
-import cardData from "./components/Data";
+import React from "react"
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import Card from "./components/Card"
 
-export default function App() {
-  const cardElements = cardData.map((card) => {
-    return <Card key={card.id} card={card} />;
-  });
 
-  return (
-    <div>
-      <Navbar />
-      <Landing />
-      <section className="cardlist">{cardElements}</section>
-    </div>
-  );
+function App() {
+  // <Hero/>
+    return (
+        <div>
+          <Navbar/>
+          <Card/>
+        </div>
+    )
 }
+
+export default App;

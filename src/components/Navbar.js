@@ -1,9 +1,20 @@
-import React from "react"
+import React from "react";
 
-export default function Navbar() {
+
+function Navbar () {
     return (
         <nav>
-            <img src={require("../images/airbnb.png")} alt="" />
+            <img src={require("../images/airbnb.png")} className="nav--logo"/>
         </nav>
     )
 }
+
+
+
+
+
+
+
+
+
+export default Navbar 
