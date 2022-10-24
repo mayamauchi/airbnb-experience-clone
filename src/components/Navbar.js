@@ -4,7 +4,7 @@ import Logo from "./images/airbnb.png"
 function Navbar () {
     return (
         <nav> 
-            <img src= {Logo} className="nav--logo"/>
+            <img src={Logo} className="nav--logo"/>
         </nav>
     )
 }
